@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaryNdiyaconsults</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold mb-4">MaryNdiyaconsults</h1>
+      <p class="text-xl mb-8">Empowering Lives. Transforming Communities.</p>
+      <button class="bg-white text-blue-500 px-6 py-3 rounded-full hover:bg-blue-100">Learn More</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-center">About Mary</h2>
+      <p class="text-lg text-center max-w-2xl mx-auto">
+        Mary is a human rights advocate, law student, and founder of MaryNdiyaconsults.
+        She is passionate about mentorship, legal education, and transforming lives through community empowerment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-12 bg-gray-200">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-semibold text-xl mb-2">Mentorship</h3>
+          <p>We provide mentorship programs tailored to inspire, guide, and support individuals to reach their full potential.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-semibold text-xl mb-2">Legal Education</h3>
+          <p>We run legal literacy workshops to educate communities about their rights and legal responsibilities.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-semibold text-xl mb-2">Youth Empowerment</h3>
+          <p>Through talks, programs, and campaigns, we empower youth to take charge of their lives and communities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-center">Blog</h2>
+      <p class="text-center text-gray-700">Blog content will go here. Stay tuned for updates!</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Gallery</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-gray-300 h-48 rounded-lg"></div>
+        <div class="bg-gray-300 h-48 rounded-lg"></div>
+        <div class="bg-gray-300 h-48 rounded-lg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-4">Subscribe to our Newsletter</h2>
+      <form class="flex flex-col md:flex-row gap-4 justify-center max-w-md mx-auto">
+        <input type="email" placeholder="Enter your email" class="p-3 border rounded w-full" required />
+        <button class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 bg-gray-200">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required />
+        <textarea placeholder="Your Message" rows="4" class="w-full p-3 border rounded" required></textarea>
+        <button class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-500 text-white text-center p-6 mt-12">
+    <div class="mb-4">
+      <a href="#" class="mx-2 hover:underline">Facebook</a>
+      <a href="#" class="mx-2 hover:underline">Twitter</a>
+      <a href="#" class="mx-2 hover:underline">LinkedIn</a>
+      <a href="#" class="mx-2 hover:underline">Instagram</a>
+    </div>
+    <p>&copy; 2025 MaryNdiyaconsults. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
